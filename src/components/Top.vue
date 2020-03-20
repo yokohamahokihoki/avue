@@ -18,9 +18,9 @@
 <style>
 main{text-align:center}
 h2{text-align:center}
-.card{display:none;padding:0.5rem;display:inline-block;width:40%;min-width:350px;text-align:center;color:#FFF;text-decoration:none;vertical-align:top;opacity:1;animation-duration:2s;animation-name:fade-in}
+.card{display:none;padding:0.5rem;display:inline-block;width:40%;min-width:350px;text-align:center;color:#FFF;text-decoration:none;vertical-align:top;opacity:1;animation-duration:1.5s;animation-name:fade-in}
 h3{display:inline-block}
 .card:nth-of-type(2n){background:#FFF;color:#222}
 
-@keyframes fade-in {0%{display:none;opacity:0}1%{display:inline-block;opacity:0}100%{display:inline-block;opacity:1}}
+@keyframes fade-in {0%{opacity:0}100%{opacity:1}}
 </style>
