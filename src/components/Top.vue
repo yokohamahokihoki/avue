@@ -13,18 +13,14 @@
 </template>
 
 <script>
-window.onload = function () {
-  $('.card').fadeIn();
-}
 </script>
 
 <style>
 main{text-align:center}
 h2{text-align:center}
-.card{display:none;padding:0.5rem;display:inline-block;width:40%;min-width:350px;text-align:center;color:#FFF;text-decoration:none;vertical-align:top}
+.card{display:none;padding:0.5rem;display:inline-block;width:40%;min-width:350px;text-align:center;color:#FFF;text-decoration:none;vertical-align:top;opacity:1;animation-duration:0.5s;animation-name:fade-in}
 h3{display:inline-block}
-.card:nth-of-type(2n){
-  background: #FFF;
-  color: #222
-}
+.card:nth-of-type(2n){background:#FFF;color:#222}
+
+@keyframes fade-in {0%{display:none;opacity:0}1%{display:block;opacity:0}100%{display:block;opacity:1}}
 </style>
