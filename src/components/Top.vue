@@ -13,7 +13,7 @@
 </template>
 
 <script>
-window.onload = function(){
+window.onload = function () {
   $('.card').fadeIn();
 }
 </script>
